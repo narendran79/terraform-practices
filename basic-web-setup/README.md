@@ -26,9 +26,10 @@ This project automates the deployment of a basic AWS environment using Terraform
 
 1. Clone this repo  
 2. Update variables as needed (e.g., region, AMI, key pair)  
-3. Run `terraform init`  
-4. Run `terraform apply`  
-5. Access the EC2 public IP to see the web page  
+3. Run `terraform init`
+4. Run `terraform plan`  
+5. Run `terraform apply`  
+6. Access the EC2 public IP to see the web page  
 
 ---
 
