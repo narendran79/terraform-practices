@@ -115,7 +115,7 @@ resource "aws_instance" "my_instance" {
               sudo apt install -y apache2
               sudo systemctl start apache2
               sudo systemctl enable apache2
-              echo "<h1>Hello World using ec2 instance using terraform script</h1>" > /var/www/html/index.html
+              echo "<h1>Hi Everyone!!!</h1><p>Running ec2 instance using terraform script</p>" > /var/www/html/index.html
             EOF
   tags = {
     Name = "ec2-using-terraform"
